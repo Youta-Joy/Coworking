@@ -4,7 +4,7 @@ import java.util.Set;
 /**
  * Класс-шаблон площадок
 */
-public class CoworkingSpace {
+public class CoworkingSpace implements Comparable<CoworkingSpace>{
     private String type;
     private String name;
     private int space;
@@ -58,4 +58,9 @@ public class CoworkingSpace {
                 ", space=" + space +
                 '}';
     }
+    @Override
+    public int compareTo(CoworkingSpace o) {
+        return this.getName().compareTo(o.getName());
+    }
+
 }

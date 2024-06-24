@@ -25,10 +25,11 @@ public class MainUserMenu {
             System.out.println("1 - для просмотра списка всех доступных рабочих мест и конференц-залов");
             System.out.println("2 - для просмотра доступных слотов для бронирования на конкретную дату; ");
             System.out.println("3 - для бронирования рабочего места или конференц-зала на определённое время и дату;");
-            System.out.println("4 - для отмены бронирования;");
-            System.out.println("5 - для добавления новых рабочих мест и конференц-залов, а также управление существующими;");
-            //System.out.println("6 - для просмотра всех бронирований и их фильтрация по дате, пользователю или ресурсу.");
-            System.out.println("7 - чтобы завершить программу ");
+            System.out.println("4 - для изменения бронирования;");
+            System.out.println("5 - для отмены бронирования;");
+            System.out.println("6 - для добавления новых рабочих мест и конференц-залов, а также управление существующими;");
+            System.out.println("7 - для просмотра всех бронирований и их фильтрация по дате, пользователю или ресурсу.");
+            System.out.println("8 - чтобы завершить программу ");
             input = scanner.nextLine();
             switch (input) {
                 case "1":
@@ -57,9 +58,12 @@ public class MainUserMenu {
                     BookingService.bookingByDateAndTime(allPlaces);
                     break;
                 case "4":
-                    BookingService.removeBooking(allBookingPlacesByDate);
+                    BookingService.changeBooking(allBookingPlacesByDate);
                     break;
                 case "5":
+                    BookingService.removeBooking(allBookingPlacesByDate);
+                    break;
+                case "6":
                     do {
                         System.out.println("Выберите действие:");
                         System.out.println("1 - Добавить коворкинг");
@@ -84,14 +88,37 @@ public class MainUserMenu {
                         }
                     }while(!innerInput.equals("4"));
                     break;
-                case "6":
-
                 case "7":
+                    do {
+                        System.out.println("Выберите действие:");
+                        System.out.println("1 - Посмотреть список всех забронированных места");
+                        System.out.println("2 - Посмотреть список всех забронированных мест отсортированных по дате");
+                        System.out.println("3 - Посмотреть список всех забронированных мест отсортированных по названию площадки");
+                        System.out.println("4 - Выйти из этого меню");
+                        innerInput = scanner.nextLine();
+                        switch (innerInput){
+                            case "1":
+                                BookingService.getAllBookings(allBookingPlacesByDate);
+                                break;
+                            case "2":
+                                BookingService.getAllBookingsByDate(allBookingPlacesByDate);
+                                break;
+                            case "3":
+                                BookingService.getAllBookingsByCoworkingName();
+                                break;
+                            case "4":
+                                break;
+                            default:
+                                System.out.println("Выберите действие:");
+                        }
+                    }while(!innerInput.equals("4"));
+                    break;
+                case "8":
                     break;
                 default:
                     System.out.println("Выберите действие: ");
             }
-        }while (!input.equals("7"));
+        }while (!input.equals("8"));
         scanner.close();
     }
 }

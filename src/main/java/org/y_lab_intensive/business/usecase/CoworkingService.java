@@ -43,7 +43,10 @@ public class CoworkingService {
                 do {
                     System.out.println("Введите название коворкинга");
                     input = scanner.nextLine();
-                }while(InputValidation.correctInput(allPlaces, input));
+                    if(input.isBlank()){
+                        System.out.println("Поле не может быть пустым и состоять из пробелов");
+                    }
+                }while(!input.equals(InputValidation.correctInput(input)));
                 name = input;
                 System.out.println("Введите желаемую площадь коворкинга");
                 input = scanner.nextLine();
@@ -109,7 +112,7 @@ public class CoworkingService {
             if(input.isBlank()){
                 System.out.println("Поле не может быть пустым и состоять из пробелов");
             }
-        }while(!InputValidation.correctInput(allPlaces, input));
+        }while(!input.equals(InputValidation.correctInput(input)));
         name = input;
 
         for (CoworkingSpace space : spaces){
@@ -130,7 +133,7 @@ public class CoworkingService {
                     if(input.isBlank()){
                         System.out.println("Поле не может быть пустым и состоять из пробелов");
                     }
-                }while(InputValidation.correctInput(allPlaces, input));
+                }while(input.equals(InputValidation.correctInput(input)));
                 innername = input;
                 space.setName(innername);
                 System.out.println("Введите новую площадь коворкинга");
@@ -161,7 +164,7 @@ public class CoworkingService {
             if(input.isBlank()){
                 System.out.println("Поле не может быть пустым и состоять из пробелов");
             }
-        }while(!InputValidation.correctInput(allPlaces, input));
+        }while(!input.equals(InputValidation.correctInput(input)));
         name = input;
 
         for (CoworkingSpace space : spaces) {

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dc4c44bd-a4a8-472b-a5d0-83e27fad8c64" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/y_lab_intensive/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/y_lab_intensive/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/y_lab_intensive/business/domain/CoworkingSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/y_lab_intensive/business/domain/CoworkingSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/y_lab_intensive/business/usecase/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/y_lab_intensive/business/usecase/BookingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/y_lab_intensive/business/usecase/CoworkingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/y_lab_intensive/business/usecase/CoworkingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/y_lab_intensive/in/InputValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/y_lab_intensive/in/InputValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/y_lab_intensive/in/MainUserMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/y_lab_intensive/in/MainUserMenu.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2i92LMnAQ01PAZXkG9iWPt4C6Nz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build Coworking_Service.executor": "Run",
+    "Gradle.Coworking [:Main.main()].executor": "Run",
+    "Gradle.Coworking_Service [:Main.main()].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "homework1",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Java",
+    "onboarding.tips.debug.path": "D:/Java/y_lab_intensive/Coworking_Service/Coworking_Service/src/main/java/org/y_lab_intensive/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "vcs.Git"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.y_lab_intensive.Main" />
+      <module name="Coworking_Service.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.y_lab_intensive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc4c44bd-a4a8-472b-a5d0-83e27fad8c64" name="Changes" comment="" />
+      <created>1718888419376</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718888419376</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.NoSuchElementException" package="java.util" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
